@@ -11,6 +11,9 @@ public class Student {
 		this.math = math;
 		this.chinese = chinese;
 	}
+	static{
+		System.out.println("haha");
+	}
 	public void print(){
 		System.out.println(getScore(english)+"\t"+
 	         getScore(math)+"\t"+getScore(chinese)+"\t");

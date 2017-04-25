@@ -15,6 +15,11 @@ public class Car {
 		this.name = name;
 	}
 
+	public Car(String brand, String name) {
+		this(brand, 0, name);
+		System.out.println("haha");
+	}
+
 	public void setMilage(int m) {
 		milage = m;
 	}

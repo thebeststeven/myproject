@@ -14,6 +14,9 @@ public class Car {
 		this.cc = cc;
 		this.name = name;
 	}
+	Car(){
+		
+	}
 
 	public Car(String brand, String name) {
 		this(brand, 0, name);

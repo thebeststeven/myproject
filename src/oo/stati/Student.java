@@ -11,6 +11,9 @@ public class Student {
 		this.math = math;
 		this.chinese = chinese;
 	}
+	Student(){
+		
+	}
 	static{
 		System.out.println("haha");
 	}

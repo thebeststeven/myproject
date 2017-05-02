@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import oo.abstraction.Car;
+import oo.stati.Student;
 
 public class Tester {
 
@@ -27,6 +28,8 @@ public class Tester {
 		String sub = s.substring(s.length()-3);
 		System.out.println(sub);
 //		int n =(int)a.get(3);
+		Student student = new Student(0, 0, 0);
+		
 	}
 
 }

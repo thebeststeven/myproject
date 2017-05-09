@@ -11,8 +11,14 @@ public class Student {
 		this.math = math;
 		this.chinese = chinese;
 	}
-	Student(){
+	public Student(){
 		
+	}
+	public String toString(){
+		return
+				"eng:"+english + "\n"+
+				"chinese:"+chinese +"\n"+
+				"math:"+math;
 	}
 	static{
 		System.out.println("haha");

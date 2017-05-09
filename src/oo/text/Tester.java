@@ -10,6 +10,10 @@ public class Tester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Student stu = new Student();
+		System.out.println(stu);
+		
 		Car c = new Car("TOYATO", 1000, "AA");
 		ArrayList<String> a = new ArrayList();
 		a.add("331");

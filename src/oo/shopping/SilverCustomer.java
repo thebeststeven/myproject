@@ -1,8 +1,8 @@
 package oo.shopping;
 
-public class sCustomer extends Customer{
+public class SilverCustomer extends Customer{
 	double discount = 0.9;
-	public sCustomer(int price){
+	public SilverCustomer(int price){
 		this.price = price;
 	}
 	public void sprint(){
@@ -12,7 +12,7 @@ public class sCustomer extends Customer{
 	public void print(){
 		System.out.println(price+"\t"+price*discount+"\t"+price*back);
 	}
-	sCustomer(){
+	SilverCustomer(){
 		
 	}
 }

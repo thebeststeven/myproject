@@ -1,8 +1,8 @@
 package oo.shopping;
 
-public class gCustomer extends sCustomer{
+public class GoldenCustomer extends SilverCustomer{
 	double back = 0.05;
-	public gCustomer(int price){
+	public GoldenCustomer(int price){
 		this.price= price;
 	}
 	public void gprint(){

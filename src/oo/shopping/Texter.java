@@ -6,10 +6,10 @@ public class Texter {
 		// TODO Auto-generated method stub
 		Customer a = new Customer(6000);
 		Customer b = new Customer(7000);
-		sCustomer c = new sCustomer(10000);
-		gCustomer d = new gCustomer(30000);
+		SilverCustomer c = new SilverCustomer(10000);
+		GoldenCustomer d = new GoldenCustomer(30000);
 		Customer e = new Customer(2000);
-		gCustomer f = new gCustomer(10000);
+		GoldenCustomer f = new GoldenCustomer(10000);
 		a.cprint();
 		a.print();
 		b.cprint();
